@@ -1,0 +1,133 @@
+{
+  "nodes": {
+    "expat": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1730943094,
+        "narHash": "sha256-ek8/3c8bKG+z7fIM+QCNsH7eoVGAt7z3bXBHZ3QjlS8=",
+        "owner": "libexpat",
+        "repo": "libexpat",
+        "rev": "2691aff4304a6d7e053199c205620136481b9dd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "libexpat",
+        "ref": "R_2_6_4",
+        "repo": "libexpat",
+        "type": "github"
+      }
+    },
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1731533236,
+        "narHash": "sha256-l0KFg5HjrsfsO/JpG+r7fRrqm12kzFHyUHqHCVpMMbI=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "11707dc2f618dd54ca8739b309ec4fc024de578b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "googletest": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1721065609,
+        "narHash": "sha256-jexrrapyENvF9xM6ArF/XRnK6+Lr6HzBewbPUL26VCw=",
+        "owner": "google",
+        "repo": "googletest",
+        "rev": "e39786088138f2749d64e9e90e0f9902daa77c40",
+        "type": "github"
+      },
+      "original": {
+        "owner": "google",
+        "ref": "v1.15.0",
+        "repo": "googletest",
+        "type": "github"
+      }
+    },
+    "libxml2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1739886621,
+        "narHash": "sha256-FQF1oXV1sHwn1LD1TOPxLRRKOU3SNMa1g09FQnlQ3To=",
+        "ref": "refs/heads/master",
+        "rev": "8e7a3f7643aeb3f00c5d8480cfd9907e218f253a",
+        "revCount": 6737,
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/libxml2.git"
+      },
+      "original": {
+        "rev": "8e7a3f7643aeb3f00c5d8480cfd9907e218f253a",
+        "type": "git",
+        "url": "https://gitlab.gnome.org/GNOME/libxml2.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1760284886,
+        "narHash": "sha256-TK9Kr0BYBQ/1P5kAsnNQhmWWKgmZXwUQr4ZMjCzWf2c=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "cf3f5c4def3c7b5f1fc012b3d839575dbe552d43",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "protobuf": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1736365126,
+        "narHash": "sha256-zdOBzLdN0ySrdFTF/X/NYI57kJ1ZFyoIl1/Qtgh/VkI=",
+        "owner": "protocolbuffers",
+        "repo": "protobuf",
+        "rev": "b407e8416e3893036aee5af9a12bd9b6a0e2b2e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "protocolbuffers",
+        "ref": "v29.3",
+        "repo": "protobuf",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "expat": "expat",
+        "flake-utils": "flake-utils",
+        "googletest": "googletest",
+        "libxml2": "libxml2",
+        "nixpkgs": "nixpkgs",
+        "protobuf": "protobuf"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
